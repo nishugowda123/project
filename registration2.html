@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Student Registration Form 1</title>
+  <style>
+    body{
+      background-image:url("https://images.pexels.com/photos/934011/pexels-photo-934011.jpeg?auto=compress&cs=tinysrgb&w=600") ;
+
+    }
+    form {
+      margin: auto;
+      width: min(600px, 80%);
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background-image:url("https://images.pexels.com/photos/934011/pexels-photo-934011.jpeg?auto=compress&cs=tinysrgb&w=600") ;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"],
+    input[type="password"],
+    textarea,
+    select,
+    #dob {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-sizing: border-box;
+      opacity: 0.5;
+    }
+
+    
+
+    .checkboxes {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 20px 0;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    .checkbox {
+      display: flex;
+      align-items: flex-start;
+      margin-right: 20px;
+    }
+
+    .checkboxes label {
+      margin-right: 20px;
+    }
+
+    
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+    }
+
+    .buttons button {
+      background-color:lightskyblue;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      width: 150px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    .buttons button:hover {
+      background-color: #2691d9;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <h2><i>Registration Form</i></h2>
+
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" placeholder="Enter name" name="first-name" required>
+
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" placeholder="Enter last name" name="last-name" required>
+
+    <label for="psw"><b>Password</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>  
+  
+    <label for="psw-repeat"><b>Re-type Password</b></label>  
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+
+    <!-- <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" placeholder="Enter DOB" name="dob" required> -->
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" placeholder="Enter address" name="email" required>
+
+    <label for="mobile">Mobile:</label>
+    <input type="tel" id="mobile"  placeholder="Enter phone num" name="mobile" required>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+      <option value="">Select Gender</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+
+    
+    <!-- <label for="city">City:</label>
+    <input type="text" id="city" placeholder="Enter id" name="city" required> -->
+
+    <!-- <label for="pin-code">Pin Code:</label>
+    <input type="text" id="pin-code" placeholder="Enter Pincode" name="pin-code" required> -->
+
+    <!-- <label for="state">State:</label>
+    <input type="text" id="state"  placeholder="Enter state" name="state" required>
+
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" placeholder="Enter contry" required> -->
+
+    <!-- <label for="hobbies">cource:</label>
+    <div class="checkboxes">
+      <div class="checkbox">
+        <input type="checkbox" id="cource1" name="cource1" value="Full stack developer">
+        <label for="hobby1">Full stack developer</label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="cource2" name="cource2" value="Linux">
+        <label for="hobby2">Linux</label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="cource3" name="cource3" value="Automation texting">
+        <label for="hobby3">Automation testing</label>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" id="cource4" name="cource4" value="Manual testing">
+        <label for="hobby4">Manual testing</label>
+      </div>
+    </div> -->
+
+    
+    
+
+    <div class="buttons">
+      <button type="reset">Reset</button>
+
+      <button type="submit"><a link href="index.html">Submit</button></a>
+
+      <!-- <a link href="index.html">Submi</button></a> -->
+
+    </div>
+  </form>
+</body>
+
+</html>
